@@ -117,15 +117,16 @@ export default class AppList extends Component {
                     <List products={this.state.products}/>
                 </div>
                 <div className='app-date'>
+                <span class="pick-color">Pick date for delete</span>
                     <DatePicker
-                        selected={this.state.date}
+                        selected={this.state.date} 
                         onChange={this.handleChangeDate}
                     />
-                    <button onClick={this.remove}>Remove</button>
+                    <button class="button_fon" onClick={this.remove}>Remove</button>
                 </div>
                 <div>
-                    <button onClick={this.total}>Get total</button>
-                    <h3>Total: {this.state.total}</h3>
+                    <button class="button_fon2" onClick={this.total}>Get total</button>
+                    <div class="total">Total: {this.state.total}</div>
                 </div>
             </div>
         );

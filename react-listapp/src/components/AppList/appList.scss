@@ -1,0 +1,94 @@
+$color-background:#323A45;
+ .app {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	background: $color-background;
+	.app-form {
+		form {
+			margin-top: 20px;
+			display: flex;
+			justify-content: space-around;
+			input {
+				outline: 0;
+				background: #f2f2f2;
+				width: 200px;
+				border: 0;
+				margin: 0 0 15px;
+				padding: 15px;
+				box-sizing: border-box;
+				font-size: 14px;
+				margin-left: 1px;
+			}
+		}
+		button {
+			outline: 0;
+			background: rgb(17, 184, 128);
+			width: 150px;
+			;
+			border: 0;
+			padding: 15px;
+			color: #FFFFFF;
+			font-size: 14px;
+			-webkit-transition: all 0.3 ease;
+			transition: all 0.3 ease;
+			cursor: pointer;
+			margin-bottom: 14px;
+		}
+		button:hover,
+		.form button:active,
+		.form button:focus {
+			background: rgb(10, 158, 109);
+		}
+	}
+	.app-date {
+        padding-top: 10px;
+		.button_fon {
+			margin-top: 25px;
+			outline: 0;
+			background: rgb(250, 125, 125);
+			width: 150px;
+			;
+			border: 0;
+			padding: 15px;
+			color: #FFFFFF;
+			font-size: 14px;
+			-webkit-transition: all 0.3 ease;
+			transition: all 0.3 ease;
+			cursor: pointer;
+			margin-bottom: 14px;
+		}
+		.button_fon:hover,
+		.button_fon:active,
+		.button_fon:focus {
+			background: rgb(228, 107, 107);
+		}
+	}
+}
+.button_fon2 {
+	outline: 0;
+	background: rgb(17, 184, 128);
+	width: 150px;
+	;
+	border: 0;
+	padding: 15px;
+	color: #FFFFFF;
+	font-size: 14px;
+	-webkit-transition: all 0.3 ease;
+	transition: all 0.3 ease;
+	cursor: pointer;
+}
+.button_fon2:hover,
+.button_fon2:active,
+.button_fon2:focus {
+	background: rgb(10, 158, 109);
+}
+.total {
+	color: #fff;
+	padding: 20px 0 20px 0;
+}
+.pick-color{
+    color: #fff;
+}

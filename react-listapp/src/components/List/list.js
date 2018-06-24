@@ -4,22 +4,23 @@ import './list.css';
 export class List extends Component {
     render() {
         return(
-            <div className='list'>
-                <ul>
-                    {this.props.products.map((product, id) => (
-                        <div key={id}>
-                            <li>
-                                <h4>
+           
+
+                <div className='list'>
+                   
+                        {this.props.products.map((product, id) => (
+                            <div class='list_items' key={id}>
+                                <div class='list_items_name'>
                                     {product.name}
-                                </h4>
-                                <h4 className='person_gender'>
+                                </div>
+                                <div class='list_items_price'>
                                     {product.price}
-                                </h4>
-                            </li>
-                        </div>
-                    ))}
-                </ul>
-            </div>
+                                </div> 
+                            </div>
+                        ))}
+    
+                </div>
+            
         );
     }
 }
